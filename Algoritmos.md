@@ -23,4 +23,11 @@
         Fim
     
 ## 3 - Tipos de dados
-    
+    Numérico
+        Basicamente são os numeros, seja pra qual função for: Operações (-, +, /, *), equações, afins.
+        Inteiros - Pontos Flutuantes (com virgula)
+    Texto
+        Sequencia de caracteres: Palavra, frase, texto, afins
+    Booleano
+        
+
