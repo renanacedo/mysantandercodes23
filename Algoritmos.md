@@ -36,6 +36,11 @@
         Ou seja, esse espaço armazena um dado que pode ser utilizado depois.
 
 ## 4 - Decisão
-    
+    Estruturas de decisão: algoritmo que analisa os dados com certos comandos e continua executando de formas diferentes dependendo do resultado da analise.    
+        O comando SE (IF/ELSE) é um comando para estrutura de decisão.
+
+## 5 - Repetição
+    Estrutura de repetição: Comando executado numa certa quantidade determinada por sua estrutura com a utilização de uma regra (laço). 
+        Existe um comando e dentro dele um laço, comando de repetição (loop)
         
 
