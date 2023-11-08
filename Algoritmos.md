@@ -29,5 +29,13 @@
     Texto
         Sequencia de caracteres: Palavra, frase, texto, afins
     Booleano
+        Um tipo de dado que só tem 2 estados: Verdadeiro - Falso 
+        Serve para verificar outros dados se são validos ou não
+    Variavel
+        É um espaço na memória que pode ser designado um valor a ela, independe do tipo do dado
+        Ou seja, esse espaço armazena um dado que pode ser utilizado depois.
+
+## 4 - Decisão
+    
         
 
