@@ -55,6 +55,59 @@
     Existe parametros de entrada e uma saida, são chamadas em algum momento para exercer sua função
         Expreções de uma função "call", "return" são comuns, porque elas são "chamadas" para processar algum dado/função e "retornar" um resultado para o programa
     
+## 8 - Exercícios Completo - Caixa Eletronico
+    Esse exercício no curso é feito com pseudocódigo, como ainda não sei uma linguagem o sulficiente para fazer nela vou realizar com pseudocódigo tambem
+        Quem sabe num futuro eu atualize esse doc utilizando alguma linguagem. 
+        att: Escrevi tipo uma pseudolinguagem kkkk'
+
+    Inicio principal
+        var opcaoSelecionada string = defaut
+        var valor int = 0
+        var saldo int = 0
+        var encerrarPrograma boolean = false
+
+        for encerrarPrograma == false {
+            call mostrarMenu = opcaoSelecionada
+        if opcaoSelecionada == "a" {
+            printf("Seu saldo é: ", saldo);
+        }
+        if else opcaoSelecionada == "b" {
+            valor = input ("Digite o valor a depositar: ");
+            saldo = valor + saldo;
+            prinf ("Deposito efetuado");
+        }
+        if else opcaoSelecionada == "c" {
+            valor = input ("Digite o valor a sacar: ");
+            if valor > saldo {
+                prinf ("Saque não permitido, saldo insuficiente");
+                retunr
+            }
+            else {
+                saldo = saldo - valor
+            }
+            prinf ("Saque efetuado");
+        }
+        if else opcaoSelecionada == "d" {
+            encerrarPrograma = true
+        }
+        else {
+            prinf ("Opção invalida, tente novamente");
+        }
+        }
+
+    Inicio mostrarMenu
+        var opcaoSelecionada string = "none"
+        prinf ("Menu de operação");
+        prinf ("[a] Mostrar saldo");
+        prinf ("[b] Efetuar deposito");
+        prinf ("[c] Efetuar saque");
+        prinf ("[d] Finalizar");
+        opcaoSelecionada = input ();
+        retunr opcaoSelecionada
+    
+    Fim do programinha de caixa eletronico 
+
+
 
          
 
