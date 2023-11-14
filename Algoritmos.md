@@ -41,6 +41,14 @@
 
 ## 5 - Repetição
     Estrutura de repetição: Comando executado numa certa quantidade determinada por sua estrutura com a utilização de uma regra (laço). 
-        Existe um comando e dentro dele um laço, comando de repetição (loop)
-        
+        Existe um comando e dentro dele um laço, comando de repetição (loop) com uma regra definida que deve ser satisfeita para dar prosseguimento encerrando assim o loop
+
+## 6 - Listas/Arrays
+    Uma lista/array serve para armazenar dados, e assim otimizar a quantidade de variaveis necessarias para grandes quantidades de dados correlacionados
+    Arrays podem ser de strings, numeros ou mistas
+    Arrays é uma variavel porem estabelecida com sinais diferentes e contem 1 ou mais dados em si
+    A posição na array é enumerada contando apartir do 0 EX: listaDeCompras ["pao","presunto","queijo"]
+        Cada item esta numa posição, no caso o item "pão" esta na posição 0, "presunto" na posição 1 e "queijo" na posição 2
+    
+         
 
