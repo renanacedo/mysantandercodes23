@@ -50,5 +50,11 @@
     A posição na array é enumerada contando apartir do 0 EX: listaDeCompras ["pao","presunto","queijo"]
         Cada item esta numa posição, no caso o item "pão" esta na posição 0, "presunto" na posição 1 e "queijo" na posição 2
     
+## 7 - Funções
+    São "pequenos programas", algoritmos isolados para exercer alguma função especifica
+    Existe parametros de entrada e uma saida, são chamadas em algum momento para exercer sua função
+        Expreções de uma função "call", "return" são comuns, porque elas são "chamadas" para processar algum dado/função e "retornar" um resultado para o programa
+    
+
          
 
