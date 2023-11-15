@@ -38,3 +38,36 @@
         Armário para hospedar os equipamentos de hardware. Essencial em data centers e infraestruturas de redes.
     
 ## 4 - Modelos OSI e TCP/IP 
+    OSI - Definição/Norma 
+        Seguimentado em 7 camadas: (A comunicação entre a app e o dispositivo passando por essas camadas)
+            Física
+                Hardware. 
+            Enlace
+                Fragmenta o pacote recebido pela rede. Utiliza o endereço MAC para e enviar ao dispositivo final.
+            Rede
+                Onde acontece o envio dos dados (agora em forma de pacote não em segmentos) de um roteador para o outro
+            Transporte
+                Realiza a conexeção com o destino por meio de 2 protocolos:
+                    TCP
+                        Envia um dado (segmento) para o destino e realiza uma verificação 
+                        Utilizado em bancos
+                    UDP
+                        Envia os dados sem verificação
+                        Normalmente utilizado em streaming
+            Sessão
+                Estabelece uma sessão entre usuario e destino, estimula e define coisas como tempo de conexão
+            Apresentação
+                Começa a criptografia para segurança da informação
+            Aplicação
+                É a camada mais proxima do usuario
+                Browser
+                Protocolo DNS, SSH
+    TCP/IP
+        Seguimentado em apenas 4 camadas, funciona basicamente igual o OSI com a unica mudança sendo as seguimentaçoes
+            Aplicação = Aplicação, Apresentação, Sessão
+            Transporte = Transporte
+            Internet = Rede
+            Acesso a Rede = Enlace, Física
+
+## 5 - IPV4 e IPV6
+    
