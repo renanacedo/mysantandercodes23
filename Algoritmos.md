@@ -108,4 +108,16 @@
     Fim do programinha de caixa eletronico 
 
 ## 9 - Desempenho de Algoritmos       
+    A complexidade de um algoritmo é definida pela alocação de memória, quantidade de operações e o tempo de resposta, ordem de execução otimizada.
+        "Primeiro faça funcionar depois faça funcionar direito/bem". 
+    *Busca Binaria: É um algoritmo de busca utilizado em arrays ordenadas. A forma que ele busca é: Verifica o item do meio da array, se for igual acaba, se for menor ele continua a busca da metade para cima, se for maior continua da metade para baixo. Assim o algoritmo o tempo de busca é diminuido (usa-se o termo O(long n))
+    *O(n) = Big O, que define o tempo de execução de um algoritmo, no caso da busca binaria (O(long o)) quer dizer que cresce de forma logarítmica e não linerarmente. 
+    Moral: Existem diversos algoritmos já pensados para otimização e funcionamento de operações, estude, aprenda bem e aprenda a pesquisar. 
 
+## 10 - Dicas para montar Algoritmos
+    Entender os parametros do problema que precisa ser resolvido é funamental para construir um algoritmo
+        Saber os paramentos define dados de entrada, dados de sainda, como devem ser tradados ou construidos. 
+        Com isso, posso saber os passos, quais estruturas e algoritmos vou precisar, tipos de dados e onde alocar.
+    É preciso saber como testar o algoritmo. Com isso expoe possiveis erros podendo assim construir algoritmos mais robustos.
+
+Fim.
