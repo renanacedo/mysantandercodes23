@@ -121,3 +121,4 @@
     É preciso saber como testar o algoritmo. Com isso expoe possiveis erros podendo assim construir algoritmos mais robustos.
 
 Fim.
+
