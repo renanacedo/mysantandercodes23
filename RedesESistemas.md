@@ -138,3 +138,17 @@
         Conexão VPN: Criptografa os acessos pela internet de ponta a ponta
         Att sistema operacional 
         Senhas complexas
+    Wireless - Ondas de radio frequencia
+        Banda - Canais: possui frequencia, quanto maior a frequencia maior o trafego de dados
+        Manter senha de wifi atualizado
+        Isolar redes wifi - cliente / empresa / departamentos da empresa
+        Atualizar o firmware do roteador
+
+## 10 - Wireless
+    Prática
+        Cisco Packet Tracer - 
+            Foi criado 2 redes, A e B, cada uma com 1 computador e 1 notebook conectados por um switch e foi conectado as redes através de um roteador. 
+                Configuramos os IP, GateWay, ligamos os cabos e foi feito teste de envio de um pacote. 
+            MUITO interessante ver na pratica essa parte física de rede, da uma noção de como funciona o visual dessa conexão de dispositivos numa rede. 
+
+FIM 
