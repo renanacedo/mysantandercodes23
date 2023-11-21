@@ -20,4 +20,24 @@
     JRE - Ambiente de Execução
     Kit de Dev - JDK
         Java - site da oracle
-        
+        IDE - Integrated Developmen Envoirment
+            InteliiJ
+
+## 3 - Variáveis
+    Java tutoriais da oracle - docs.oracle
+    Dados primitivos
+        Numéricos - a diferença é o quanto eles comportam
+            byte
+            short
+            int - o mais comum utilizado para numeros inteiros
+            long
+            float - o mais comum para decimais
+            double
+        Palavras
+            string
+            char
+        Booleano
+            boolean
+    Cast 
+        transformar um tipo para outro tipo na representação
+
