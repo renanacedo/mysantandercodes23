@@ -75,3 +75,22 @@
             }
 
 ## 6 - Manipulação de strings e datas
+    Manipulando a string
+        Deixando no printl tudo maiusculo, minusculo, quantas letras tem, verificar igualdade com outra string.
+    ISO 8601 - Define como informar uma data, é padrão do java no @LocalDate
+        import java.time.LocalDate;
+        classe = LocalDate <variavel> = LocalDate.now();
+
+## 7 - Laços Numericos 
+    laço numerico com o FOR para contar de 1 até 10
+    laços aninhados 
+        for dentro de for para fazer uma tabuada
+
+## 8 - Vetores
+    Arrays 
+        Ela é declarada da seguinte forma:
+            int [] variavel = new int[5];
+        Uma array depois de definida seu tamanho é imutavel
+        Na array o indice começa no 0: 
+            indice = 0 a n-1
+        Para preencher direto a array usa {} apos nome da variavel
