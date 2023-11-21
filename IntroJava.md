@@ -75,3 +75,16 @@
             }
 
 ## 6 - Manipulação de strings e datas
+    Manipulando a string
+        Deixando no printl tudo maiusculo, minusculo, quantas letras tem, verificar igualdade com outra string.
+    ISO 8601 - Define como informar uma data, é padrão do java no @LocalDate
+        import java.time.LocalDate;
+        classe = LocalDate <variavel> = LocalDate.now();
+
+## 7 - Laços Numericos 
+    laço numerico com o FOR para contar de 1 até 10
+    laços aninhados 
+        for dentro de for para fazer uma tabuada
+
+## 8 - Vetores
+    
