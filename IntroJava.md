@@ -41,3 +41,37 @@
     Cast 
         transformar um tipo para outro tipo na representação
 
+## 4 - Operadores Booleanos e tabela verdade
+    Operadores lógicos
+        AND = &&
+            só é true quando ambos operandos são true
+        OR = || 
+            só é true quando pelomenos 1 operando é true
+        Operador ternário
+            ?
+                se for true realiza algo
+            :
+                se não é true realiza esse
+
+## 5 - Estruturas condicionais
+    Operadores condicionais
+        if 
+            >= maior ou igual
+            > maior
+            < menor
+            <= menor ou igual
+        else if / else
+        Verificação de casos
+            switch (variavel){
+                case x:
+                case y:
+                    print
+                    break;
+                case z:
+                    print
+                    break;
+                default:
+                    print
+            }
+
+## 6 - Manipulação de strings e datas
