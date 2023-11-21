@@ -49,8 +49,22 @@ public class Main {
         } else {
             saudacao = "Boa madrugada";
         }
+        System.out.printf("Olá, %s, hoje é %s, %dH %n%s. %n", nome, diaSemana, horaAgora, saudacao );
 
-        System.out.printf("Olá, %s, hoje é %s, %dH %n%s.", nome, diaSemana, horaAgora, saudacao );
+        // Laços numéricos
+        // Váriavel que for (enquanto)
+        /*for (int i = 0; i <= 5; i+=5){
+            System.out.println(i);
+        }
+        // Laços aninhados para uma tabuada
+        for (int i = 1; i <= 10; i++){
+            for (int j = 1; j <= 10; j++){
+                System.out.println(j + " x " + i + " = " + j * i);
+            }
+        } comentei tudo para nao ficar extenso no display */
+
+
+        // Vetores
 
     }
 }
