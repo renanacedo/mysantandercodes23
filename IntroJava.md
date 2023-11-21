@@ -87,4 +87,10 @@
         for dentro de for para fazer uma tabuada
 
 ## 8 - Vetores
-    
+    Arrays 
+        Ela é declarada da seguinte forma:
+            int [] variavel = new int[5];
+        Uma array depois de definida seu tamanho é imutavel
+        Na array o indice começa no 0: 
+            indice = 0 a n-1
+        Para preencher direto a array usa {} apos nome da variavel
