@@ -94,3 +94,6 @@
         Na array o indice começa no 0: 
             indice = 0 a n-1
         Para preencher direto a array usa {} apos nome da variavel
+
+## 9 - Funções
+    Somente aprendi a fazer e utilizar funções, olhar arquivo .java
