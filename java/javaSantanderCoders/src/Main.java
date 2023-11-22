@@ -95,5 +95,8 @@ public class Main {
         System.out.println("\nMaior " + maior);
         System.out.println("Menor " + menor);
         System.out.println("Media " + media/numeros.length);
+
+        // Funções - Aula 9
+
     }
 }
