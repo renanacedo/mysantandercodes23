@@ -1,8 +1,6 @@
-import java.time.DayOfWeek;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.time.format.TextStyle;
-import java.util.Arrays;
 import java.util.Locale;
 
 public class Main {
@@ -42,11 +40,11 @@ public class Main {
         String diaSemana = hoje.getDayOfWeek() .getDisplayName(TextStyle.FULL, brasil);
         String saudacao;
         // Aplicação
-        if (agora.getHour() >= 0 && agora.getHour() < 12){
+        if (agora.getHour() < 12){
             saudacao = "Bom dia";
-        } else if (agora.getHour() >= 12 && agora.getHour() < 18) {
+        } else if (agora.getHour() < 18) {
             saudacao = "Boa tarde";
-        } else if (agora.getHour() >= 18 && agora.getHour() < 24) {
+        } else if (agora.getHour() < 24) {
             saudacao = "Boa noite";
         } else {
             saudacao = "Boa madrugada";
@@ -85,17 +83,20 @@ public class Main {
         int menor = numeros[0];
         int media = 0;
 
-        for (int i=0; i < numeros.length; i++){
-            if (numeros[i] > maior){
-                maior = numeros[i];
+        for (int numero : numeros) {
+            if (numero > maior) {
+                maior = numero;
             }
-            if (numeros[i] < menor) {
-                menor = numeros[i];
+            if (numero < menor) {
+                menor = numero;
             }
-            media += numeros[i];
+            media += numero;
         }
         System.out.println("\nMaior " + maior);
         System.out.println("Menor " + menor);
         System.out.println("Media " + media/numeros.length);
+
+        // Funções - Aula 9
+
     }
 }
